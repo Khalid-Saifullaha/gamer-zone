@@ -1,0 +1,51 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar design starts hear */
+.nav-container {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.nav-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+.span-g {
+    color: rgb(255, 66, 165);
+    margin-left: 5px;
+}
+
+.nav-right {
+
+}
+
+.nav-btn {
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    margin-left: 32px;
+}
+.nav-btn-follow {
+    width: 222px;
+    height: 56px;   
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    margin-right: 0;
+}
