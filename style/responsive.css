@@ -23,6 +23,7 @@
     }
     .header-left, .header-right {
         width: 90%;
+        text-align: center;
     }
     .play {
         font-size: 30px;
@@ -40,5 +41,14 @@
         height: 45px;   
         padding: 0px;
     }
-   
+
+    /* we are gamer */
+
+    .we-are-gamer {
+        flex-direction: column;
+    }
+    .gamer-left, .gamer-right {
+        width: 90%;
+        text-align: center;
+    }
 }
