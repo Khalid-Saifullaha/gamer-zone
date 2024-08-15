@@ -51,4 +51,17 @@
         width: 90%;
         text-align: center;
     }
+
+    /* online gamer */
+
+    .online-main {
+        grid-template-areas: 
+        "a"
+        "b" 
+        "c"
+        "d" ;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
 }

@@ -179,3 +179,87 @@
     font-size: 32px;
     font-weight: 700;    
 }
+
+/* online gamer styles hear */
+
+.online-gamers {
+
+}
+
+.online-gamer-container {
+
+}
+.online {
+    text-align: center;
+}
+.online h1 {
+    font-size: 48px;
+    font-weight: 700;    
+}
+.Funny {
+    background-image: linear-gradient(#f94882, #8758f1);
+    background-clip: text;
+    color: transparent;
+}
+.online p {
+    color: rgb(83, 76, 100);
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.online-main {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "a b c d" ;
+    gap: 10px;
+}
+.online-card {
+    position: relative;
+}
+.online-card p {
+    color: rgb(83, 76, 100);
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.online-card img {
+    width: 100%;
+    height: 400px;
+}
+.card-1 {
+  grid-area: a;  
+}
+.card-2 {
+    grid-area: b;  
+}
+.card-3 {
+    grid-area: c;  
+}
+.card-4 {
+    grid-area: d;  
+}
+
+.watch-now {
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    text-align: center;
+    display: none;
+}
+.watch-now span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+}
+.watch-now p {
+    color: #f94882;
+}
+.online-card img:hover+ .watch-now {
+    display: block;
+}
+.online-card img:hover {
+    filter: brightness(50%);
+}
