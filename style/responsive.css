@@ -89,4 +89,30 @@
         bottom: -35px;
         left: -50px;
     }
+    /* play games online */
+
+    .play-games-container {
+        flex-direction: column-reverse;
+        width: 70%;
+    }
+    .play-games-left {
+        width: 100%;
+    }
+    .play-games-right {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .play-games-right h1 {
+        font-size: 28px;
+        font-weight: 700; 
+        line-height: 35px;  
+    }
+    .girl-cat {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        bottom: -60px;
+        right: -38px;
+    }
 }

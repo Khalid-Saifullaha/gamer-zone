@@ -306,3 +306,50 @@
     bottom: -45px;
     left: -90px;
 }
+
+/* play games online section style */
+.play-games {
+    max-width: 100%;
+    margin-top: 80px;
+ 
+}
+.play-games-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.play-games-left {
+    position: relative;
+    width: 40%;
+}
+.play-games-right h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;   
+}
+.play-games-sp {
+    background-image: linear-gradient(#f94882, #8758f1);
+    background-clip: text;
+    color: transparent;    
+}
+.play-games-right p {
+    color: rgb(83, 76, 100);
+    font-size: 18px;
+    font-weight: 400;    
+}
+.girl {
+    width: 100%;
+}
+.girl-cat {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -70px;
+    right: -100px;
+}
+.play-games-right {
+    width: 40%;
+}
