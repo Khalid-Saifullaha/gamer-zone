@@ -263,3 +263,46 @@
 .online-card img:hover {
     filter: brightness(50%);
 }
+
+/* Play Instantly styles */
+
+.play-instantly {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.play-instantly-left {
+    width: 40%;
+    text-align: center;
+}
+.play-instantly-left h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.play {
+    background-image: linear-gradient(#f94882, #8758f1);
+    background-clip: text;
+    color: transparent;   
+}
+.play-instantly-left p {
+    color: rgb(83, 76, 100);
+    font-size: 18px;
+    font-weight: 400;    
+}
+.play-instantly-right {
+    width: 40%;
+    position: relative;
+}
+.play-instantly-right img {
+    width: 100%;
+}
+.play-instantly-right .beral {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: -45px;
+    left: -90px;
+}
