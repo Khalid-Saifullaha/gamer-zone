@@ -412,3 +412,28 @@
     border-radius: 40px;
     margin-top: 40px;
 }
+
+/* category section style */
+
+.category-main {
+    margin: 100px auto;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+}
+.category-child {
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    min-width: 251px;
+    
+    
+}
+.category-child:hover {
+    outline: 1px solid violet;
+}
+.category-child img {
+    width: 40px;
+}
